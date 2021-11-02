@@ -27,3 +27,17 @@ def intersect(prelist, postlist):
     
 #함수를 호출
 print(intersect("HAM","SPAM"))
+
+#w정수, 실수, 복소수, 문자열, 튜플, 불린
+print("---불변형식---")
+x = 1.2
+print(id(x))
+x = 2.3
+print(id(x))
+
+print("---가변형---")
+lst = [1,2,3]
+print(id(lst))
+lst.append(4)
+print(id(lst))
+
