@@ -64,5 +64,5 @@ day = list(range(1,32))
 print(day)
 
 #for ~ in ==> for 루프
-for i in range(5):
+for i in range(10):
     print(i)
