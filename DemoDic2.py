@@ -46,7 +46,7 @@ print(id(a), id(b))
 print("---깊은복사---")
 a=[1,2,3]
 #리시트 객체의 전체를 복사해 달라
-b = a
+b = a[:]
 a[0] = 38
 print(a)
 print(b)
