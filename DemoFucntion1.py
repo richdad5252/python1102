@@ -18,8 +18,10 @@ print(swap(5,6))
 def intersect(prelist, postlist):
     #지역변수에 리스트로 저장하기
     result = []
+    #H(0) | A(1) | M(2)
     for x in prelist:
-        if x in postlist and x not in result:
+        #x라는 글자가 postlist에 있고 x가 아직 result에는 없고
+        if x in postlist and x not in result: #if에서의 in은 포함 여부
             result.append(x)
     return result
     
